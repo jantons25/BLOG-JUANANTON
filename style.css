@@ -1,0 +1,551 @@
+.body__inicio{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.body__inicio a{
+    text-decoration: none;
+    color: #00adf5;
+    font-size: 1.2rem;
+}
+
+.header-contacto{
+    height: 420px;
+    width: 100%;
+}
+
+.header-contacto-portada{
+    padding-top: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.header-contacto-portada__figure{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.header-contacto-portada__img{
+    width: 250px;
+    height: 250px;
+}
+
+.header-contacto-nav__figure{
+    width: 20px;
+    height: 20px;
+}
+
+.header-contacto-nav__icono{
+    width: 20px;
+    height: 20px;
+}
+
+.header-contacto-nav{
+    margin-top: 10px;
+}
+
+.header-contacto-nav__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-contacto-nav__ul li{
+    list-style: none;
+}
+
+.header-contacto-nav__li__facebook{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*MAIN*/
+
+main{
+    background-color: var(--color-primary);
+}
+
+.seccion-uno{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.seccion-uno-descripcion p{
+    color: #00adf5;
+}
+
+.seccion-uno-descripcion h3{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.seccion-uno-habilidades{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.seccion-uno-habilidades__div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+    display: flex;
+    flex-direction: column;
+}
+
+#habilidad-dos{
+    margin: 10px 0px;
+}
+
+.seccion-uno-habilidades__div__container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.seccion-uno-habilidades__div__figure{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion-uno-habilidades__div__img{
+    width: 60px;
+    height: 60px;
+}
+
+.seccion-uno-habilidades__div h4{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.seccion-uno-habilidades__div p{
+    margin-top: 10px;
+    color: rgb(170, 170, 170);
+}
+
+/*SECCION DOS */
+
+.seccion-dos-foto__img{
+    width: 200px;
+    height: 200px;
+}
+
+.seccion-dos-foto__figure{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.seccion-dos{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.seccion-dos-foto{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.seccion-dos-foto-descripcion{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seccion-tres{
+    width: 100%;
+    background-color: var(--color-primary);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.seccion-tres-formulario{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+}
+
+.seccion-dos-foto-descripcion p{
+    margin-top: 10px;
+    color: rgb(170, 170, 170);
+}
+
+/*SECCION TRES*/
+
+.seccion-tres-formulario__form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.seccion-tres-formulario__label{
+    margin-top: 20px;
+}
+
+.seccion-tres-formulario__label span{
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+}
+
+#contacto-form-label__dos span{
+    display: block;
+}
+
+#contacto-form-label__tres span{
+    display: block;
+}
+
+#contacto-form-label__uno span{
+    display: block;
+}
+
+.seccion-tres-formulario__form input{
+    width: 100%;
+    
+}
+
+.seccion-tres-formulario__form input:focus{
+    outline: none;
+}
+
+#contacto-form-label__input__cuatro{
+    height: 40px;
+}
+
+#contacto-form-label__input__uno{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#contacto-form-label__input__dos{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#contacto-form-label__input__tres{
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#contacto-form-label__input__cuatro{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#contacto-form-label__cuatro span{
+    top: 40px;
+}
+
+#seccion-tres-formulario__form__button{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 50%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #00adf5;
+    color: white;
+    font-weight: bold;
+}
+
+.seccion-tres-p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.seccion-tres__p{
+    color: #00adf5;
+    margin-bottom: 10px;
+}
+
+.header-contacto-portada-titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header-contacto-portada-titulo p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: rgb(170, 170, 170);
+}
+
+.header-contacto-portada-titulo h1{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.header-contacto-portada-titulo__p{
+    letter-spacing: 10px;
+}
+
+@media screen and (min-width:400px){
+
+    .seccion-tres-formulario{
+        width: 70%;
+    }
+
+    .seccion-tres-p{
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:445px){
+
+    #habilidad-tres{
+        margin-top: 50px;
+    }
+
+    #habilidad-dos{
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width:667px){
+
+    #habilidad-tres{
+        margin-top: 0;
+    }
+
+    #habilidad-dos{
+        margin: 0;
+    }
+
+    .seccion-tres-formulario{
+        width: 50%;
+    }
+
+    .seccion-tres-p{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+
+    .seccion-tres-formulario{
+        width: 40%;
+    }
+
+    .seccion-tres-p{
+        width: 40%;
+    }
+
+    .header-contacto-portada{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-contacto-portada__figure{
+        margin: 0;
+        margin-top: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: 180px;
+    }
+
+    .header-contacto-portada-titulo{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+        margin-top: auto;
+        margin-left: 15%;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+
+    .header-contacto-portada-titulo h1{
+        font-size: 3rem;
+    }
+
+    .header-contacto-portada-titulo p{
+        font-size: 1.2rem;
+        color: rgb(170, 170, 170);
+    }
+
+    .header-contacto-portada-titulo__p{
+        letter-spacing: 10px;
+    }
+
+    .seccion-dos-foto__img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .seccion-dos-foto__figure{
+        width: 250px;
+        height: 250px;
+    }
+
+    .seccion-uno-habilidades__div{
+        width: 250px;
+        height: 250px;
+    }
+
+    .seccion-uno-habilidades__div h4{
+        font-size: 1.5rem;
+    }
+    
+    .seccion-uno-habilidades__div p{
+        font-size: 1.2rem;
+    }
+
+    .seccion-dos-foto-descripcion p{
+        font-size: 1.2rem;
+    }
+
+    .seccion-dos-foto-descripcion h3{
+        font-size: 1.5rem;
+    }
+
+    .seccion-dos-foto-descripcion{
+        width: 40%;
+    }
+
+    .seccion-tres-formulario__label span{
+        font-size: 1.2rem;
+    }
+
+    .seccion-uno-descripcion p{
+        font-size: 1.2rem;
+    }
+
+    .seccion-tres__p{
+        font-size: 1.2rem;
+    }
+
+    .seccion-uno-habilidades{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1400px){
+
+    .seccion-uno-descripcion p{
+        font-size: 1.5rem;
+    }
+
+    .seccion-tres__p{
+        font-size: 1.5rem;
+    }
+
+    .seccion-tres-formulario{
+        width: 30%;
+    }
+
+    .seccion-tres-p{
+        width: 30%;
+    }
+
+    .body__inicio a{
+        font-size: 1.8rem;
+    }
+
+    .header-contacto{
+        height: 60vh;
+    }
+
+    .header-contacto-portada__figure{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .header-contacto-portada__img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .header-contacto-portada-titulo h1{
+        font-size: 4rem;
+    }
+
+    .header-contacto-portada-titulo p{
+        font-size: 1.8rem;
+    }
+
+    .seccion-uno-habilidades__div{
+        width: 300px;
+        height: 300px;
+    }
+
+    .seccion-uno-habilidades__div h4{
+        font-size: 1.8rem;
+    }
+    
+    .seccion-uno-habilidades__div p{
+        font-size: 1.5rem;
+    }
+
+    .seccion-dos-foto__img{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .seccion-dos-foto__figure{
+        width: 350px;
+        height: 350px;
+    }
+
+    .seccion-dos-foto-descripcion p{
+        font-size: 1.5rem;
+    }
+
+    .seccion-dos-foto-descripcion h3{
+        font-size: 1.8rem;
+    }
+
+    .seccion-dos-foto-descripcion{
+        width: 30%;
+    }
+
+    .seccion-tres-formulario__label span{
+        font-size: 1.5rem;
+    }
+
+    .seccion-uno-habilidades{
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
